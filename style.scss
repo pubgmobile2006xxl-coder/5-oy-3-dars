@@ -8,7 +8,7 @@
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0 20px;
     margin: 0 auto;
     margin-top: 50px;
@@ -88,6 +88,7 @@ main {
             .section_cards {
                 display: flex;
                 align-items: center;
+                gap: 30px;
 
                 .card_text {
                     width: 52%;
@@ -137,6 +138,187 @@ main {
             }
         }
     }
+
+    // .section2 {
+    //     margin-top: 100px;
+    //     margin-bottom: 200px;
+
+    //     .container {
+    //         .section_title {
+    //             h1 {
+    //                 font-weight: 800;
+    //                 font-size: 70px;
+    //                 line-height: 100%;
+    //                 letter-spacing: 0%;
+    //                 text-align: center;
+    //                 padding-bottom: 20px;
+    //             }
+
+    //             p {
+    //                 font-weight: 400;
+    //                 font-size: 30px;
+    //                 line-height: 100%;
+    //                 letter-spacing: 0%;
+    //                 text-align: center;
+    //                 color: #404242;
+    //             }
+    //         }
+
+    //         .section_cards {
+    //             margin-top: 50px;
+    //             display: flex;
+    //             align-items: center;
+
+    //             .ras{
+    //                 height: 350px;
+    //                 width: 80%;
+    //             }
+
+    //             .card_text {
+    //                 width: 20%;
+    //                 height: 350px;
+    //                 background: #CCF0E6;
+
+    //                 p {
+    //                     font-weight: 500;
+    //                     font-size: 20px;
+    //                     line-height: 100%;
+    //                     letter-spacing: 0%;
+    //                     color: #486958;
+    //                     padding-top: 70px;
+    //                     padding-bottom: 41px;
+    //                     padding-left: 15px;
+    //                 }
+
+    //                 a {
+    //                     font-weight: 700;
+    //                     font-size: 20px;
+    //                     line-height: 100%;
+    //                     letter-spacing: 0%;
+    //                     color: #486958;
+    //                     padding-left: 15px;
+    //                 }
+    //             }
+
+    //                 .dumalo {
+    //                 width: 100px;
+    //                 height: 100px;
+    //                 border-radius: 60%;
+    //                 display: flex;
+    //                 align-items: center;
+    //                 justify-content: center;
+    //                 text-align: center;
+    //                 background: #FFFFFF;
+    //                 color: #FEC62D;
+    //                 animation-name: nma;
+    //                 animation-duration: 2.5s;
+    //                 animation-iteration-count: infinite;
+    //                 animation-timing-function: ease-in-out;
+    //                 animation-fill-mode: backwards;
+    //                 animation-direction: reverse;
+    //                 position:  absolute;
+    //                 right: 280px;
+    //                 bottom: -560px;
+    //             }
+
+    //             @keyframes nma {
+    //                 30% {
+    //                     transform: translate(100px)scale(2);
+    //                 }
+
+    //                 30% {
+    //                     transform: translate(50px)scale(1.5);
+    //                     background: #666464;
+    //                 }
+
+    //                 30% {
+    //                     transform: translate(20px)scale(0.4);
+    //                     background: #FFFFFF;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    .section3 {
+        .container {
+            .section_cards {
+                display: flex;
+                gap: 30px;
+
+                .card_text {
+                    width: 60%;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        padding-top: 50px;
+                        color: #486958;
+                    }
+                }
+            }
+        }
+    }
+
+    .section4 {
+        .container {
+            h1 {
+                font-weight: 800;
+                font-size: 70px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+
+            .intr {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #404242;
+                padding-top: 20px;
+            }
+
+            .section_cards {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .card {
+                    width: 40%;
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #58A9A5;
+                        padding-bottom: 5px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #486958;
+                        padding-bottom: 35px;
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media(max-width:px) {}
+// @media(max-width:px) {}
