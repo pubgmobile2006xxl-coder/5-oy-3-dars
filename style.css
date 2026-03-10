@@ -8,7 +8,7 @@
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
   margin-top: 50px;
@@ -110,12 +110,80 @@ main .section1 .container .section_cards .card_rasm {
   border-radius: 120px;
   background: #CCF0E6;
 }
+main .section2 {
+  margin-top: 120px;
+}
+main .section2 .container .section_title {
+  text-align: center;
+}
+main .section2 .container .section_title h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+main .section2 .container .section_title p {
+  font-size: 24px;
+  color: #404242;
+  margin-top: 10px;
+}
+main .section2 .container .section_cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+main .section2 .container .section_cards .ras {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+main .section2 .container .section_cards .dumalo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 79%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  animation: play 2s infinite;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+main .section2 .container .section_cards .card_text {
+  height: 350px;
+  background: #CCF0E6;
+  padding: 40px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+main .section2 .container .section_cards .card_text p {
+  font-size: 18px;
+  color: #486958;
+}
+main .section2 .container .section_cards .card_text a {
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #486958;
+}
+@keyframes play {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
 main .section3 .container .section_cards {
   display: flex;
   gap: 30px;
-}
-main .section3 .container .section_cards .card_text {
-  width: 60%;
 }
 main .section3 .container .section_cards .card_text h1 {
   font-weight: 700;
@@ -154,7 +222,10 @@ main .section4 .container .section_cards {
   gap: 30px;
 }
 main .section4 .container .section_cards .card {
-  width: 40%;
+  width: 48%;
+}
+main .section4 .container .section_cards .card img {
+  width: 90%;
 }
 main .section4 .container .section_cards .card h3 {
   font-weight: 700;
@@ -171,4 +242,39 @@ main .section4 .container .section_cards .card p {
   letter-spacing: 0%;
   color: #486958;
   padding-bottom: 35px;
+}
+
+@media (max-width: 900px) {
+  header .container ul li {
+    display: none;
+  }
+  .section1 .section_cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section2 .section_cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section2 .section_cards .video_box .ras {
+    width: 100%;
+  }
+  .section2 .section_cards .video_box .dumalo {
+    left: 50%;
+    top: 25%;
+  }
+  .section2 .section_cards .card_text {
+    width: 100%;
+    height: auto;
+  }
+  .section3 .section_cards {
+    flex-direction: column;
+  }
+  .section3 .section3 .card_text {
+    width: 100%;
+    text-align: center;
+  }
+  .section4 .container .section_cards {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */
